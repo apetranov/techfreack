@@ -77,7 +77,7 @@ export default async function Home({ searchParams }) {
                     width={200}
                     height={200}
                   />
-                  <p>{laptop.title}</p>
+                  <p className="text-center">{laptop.title}</p>
                   <p>${laptop.price}</p>
                   <p>{renderStars(laptop.rating)}</p>
                 </div>
@@ -97,7 +97,7 @@ export default async function Home({ searchParams }) {
                     width={200}
                     height={200}
                   />
-                  <p>{phone.title}</p>
+                  <p className="text-center">{phone.title}</p>
                   <p>${phone.price}</p>
                   <p>{renderStars(phone.rating)}</p>
                 </div>
@@ -118,7 +118,7 @@ export default async function Home({ searchParams }) {
                     width={200}
                     height={200}
                   />
-                  <p>{laptop.title}</p>
+                  <p className="text-center">{laptop.title}</p>
                   <p>${laptop.price}</p>
                   <p>{renderStars(laptop.rating)}</p>
                 </div>
@@ -133,7 +133,7 @@ export default async function Home({ searchParams }) {
                     width={200}
                     height={200}
                   />
-                  <p>{phone.title}</p>
+                  <p className="text-center">{phone.title}</p>
                   <p>${phone.price}</p>
                   <p>{renderStars(phone.rating)}</p>
                 </div>
